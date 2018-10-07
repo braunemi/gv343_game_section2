@@ -110,17 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named gv343_game_section2
+# Target rules for targets named CIS_343_02
 
 # Build rule for target.
-gv343_game_section2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 gv343_game_section2
-.PHONY : gv343_game_section2
+CIS_343_02: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CIS_343_02
+.PHONY : CIS_343_02
 
 # fast build rule for target.
-gv343_game_section2/fast:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/build
-.PHONY : gv343_game_section2/fast
+CIS_343_02/fast:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/build
+.PHONY : CIS_343_02/fast
+
+Animator.obj: Animator.cpp.obj
+
+.PHONY : Animator.obj
+
+# target to build an object file
+Animator.cpp.obj:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Animator.cpp.obj
+.PHONY : Animator.cpp.obj
+
+Animator.i: Animator.cpp.i
+
+.PHONY : Animator.i
+
+# target to preprocess a source file
+Animator.cpp.i:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Animator.cpp.i
+.PHONY : Animator.cpp.i
+
+Animator.s: Animator.cpp.s
+
+.PHONY : Animator.s
+
+# target to generate assembly for a file
+Animator.cpp.s:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Animator.cpp.s
+.PHONY : Animator.cpp.s
 
 Collision.obj: Collision.cpp.obj
 
@@ -128,7 +155,7 @@ Collision.obj: Collision.cpp.obj
 
 # target to build an object file
 Collision.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Collision.cpp.obj
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Collision.cpp.obj
 .PHONY : Collision.cpp.obj
 
 Collision.i: Collision.cpp.i
@@ -137,7 +164,7 @@ Collision.i: Collision.cpp.i
 
 # target to preprocess a source file
 Collision.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Collision.cpp.i
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Collision.cpp.i
 .PHONY : Collision.cpp.i
 
 Collision.s: Collision.cpp.s
@@ -146,7 +173,7 @@ Collision.s: Collision.cpp.s
 
 # target to generate assembly for a file
 Collision.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Collision.cpp.s
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Collision.cpp.s
 .PHONY : Collision.cpp.s
 
 Game.obj: Game.cpp.obj
@@ -155,7 +182,7 @@ Game.obj: Game.cpp.obj
 
 # target to build an object file
 Game.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Game.cpp.obj
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Game.cpp.obj
 .PHONY : Game.cpp.obj
 
 Game.i: Game.cpp.i
@@ -164,7 +191,7 @@ Game.i: Game.cpp.i
 
 # target to preprocess a source file
 Game.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Game.cpp.i
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Game.cpp.i
 .PHONY : Game.cpp.i
 
 Game.s: Game.cpp.s
@@ -173,8 +200,35 @@ Game.s: Game.cpp.s
 
 # target to generate assembly for a file
 Game.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Game.cpp.s
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Game.cpp.s
 .PHONY : Game.cpp.s
+
+Intro.obj: Intro.cpp.obj
+
+.PHONY : Intro.obj
+
+# target to build an object file
+Intro.cpp.obj:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Intro.cpp.obj
+.PHONY : Intro.cpp.obj
+
+Intro.i: Intro.cpp.i
+
+.PHONY : Intro.i
+
+# target to preprocess a source file
+Intro.cpp.i:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Intro.cpp.i
+.PHONY : Intro.cpp.i
+
+Intro.s: Intro.cpp.s
+
+.PHONY : Intro.s
+
+# target to generate assembly for a file
+Intro.cpp.s:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Intro.cpp.s
+.PHONY : Intro.cpp.s
 
 Monster.obj: Monster.cpp.obj
 
@@ -182,7 +236,7 @@ Monster.obj: Monster.cpp.obj
 
 # target to build an object file
 Monster.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Monster.cpp.obj
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Monster.cpp.obj
 .PHONY : Monster.cpp.obj
 
 Monster.i: Monster.cpp.i
@@ -191,7 +245,7 @@ Monster.i: Monster.cpp.i
 
 # target to preprocess a source file
 Monster.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Monster.cpp.i
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Monster.cpp.i
 .PHONY : Monster.cpp.i
 
 Monster.s: Monster.cpp.s
@@ -200,8 +254,35 @@ Monster.s: Monster.cpp.s
 
 # target to generate assembly for a file
 Monster.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Monster.cpp.s
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Monster.cpp.s
 .PHONY : Monster.cpp.s
+
+Options.obj: Options.cpp.obj
+
+.PHONY : Options.obj
+
+# target to build an object file
+Options.cpp.obj:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Options.cpp.obj
+.PHONY : Options.cpp.obj
+
+Options.i: Options.cpp.i
+
+.PHONY : Options.i
+
+# target to preprocess a source file
+Options.cpp.i:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Options.cpp.i
+.PHONY : Options.cpp.i
+
+Options.s: Options.cpp.s
+
+.PHONY : Options.s
+
+# target to generate assembly for a file
+Options.cpp.s:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Options.cpp.s
+.PHONY : Options.cpp.s
 
 Person.obj: Person.cpp.obj
 
@@ -209,7 +290,7 @@ Person.obj: Person.cpp.obj
 
 # target to build an object file
 Person.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Person.cpp.obj
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Person.cpp.obj
 .PHONY : Person.cpp.obj
 
 Person.i: Person.cpp.i
@@ -218,7 +299,7 @@ Person.i: Person.cpp.i
 
 # target to preprocess a source file
 Person.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Person.cpp.i
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Person.cpp.i
 .PHONY : Person.cpp.i
 
 Person.s: Person.cpp.s
@@ -227,440 +308,8 @@ Person.s: Person.cpp.s
 
 # target to generate assembly for a file
 Person.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/Person.cpp.s
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Person.cpp.s
 .PHONY : Person.cpp.s
-
-SFML-2.5.0/share/SFML/examples/X11Example/X11.obj: SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/X11Example/X11.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/X11Example/X11.i: SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/X11Example/X11.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.i
-
-SFML-2.5.0/share/SFML/examples/X11Example/X11.s: SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/X11Example/X11.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/X11Example/X11.cpp.s
-
-SFML-2.5.0/share/SFML/examples/ftp/Ftp.obj: SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/ftp/Ftp.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/ftp/Ftp.i: SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/ftp/Ftp.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.i
-
-SFML-2.5.0/share/SFML/examples/ftp/Ftp.s: SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/ftp/Ftp.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/ftp/Ftp.cpp.s
-
-SFML-2.5.0/share/SFML/examples/island/Island.obj: SFML-2.5.0/share/SFML/examples/island/Island.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/island/Island.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/island/Island.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/island/Island.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/island/Island.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/island/Island.i: SFML-2.5.0/share/SFML/examples/island/Island.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/island/Island.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/island/Island.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/island/Island.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/island/Island.cpp.i
-
-SFML-2.5.0/share/SFML/examples/island/Island.s: SFML-2.5.0/share/SFML/examples/island/Island.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/island/Island.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/island/Island.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/island/Island.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/island/Island.cpp.s
-
-SFML-2.5.0/share/SFML/examples/joystick/Joystick.obj: SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/joystick/Joystick.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/joystick/Joystick.i: SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/joystick/Joystick.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.i
-
-SFML-2.5.0/share/SFML/examples/joystick/Joystick.s: SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/joystick/Joystick.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/joystick/Joystick.cpp.s
-
-SFML-2.5.0/share/SFML/examples/opengl/OpenGL.obj: SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/opengl/OpenGL.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/opengl/OpenGL.i: SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/opengl/OpenGL.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.i
-
-SFML-2.5.0/share/SFML/examples/opengl/OpenGL.s: SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/opengl/OpenGL.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/opengl/OpenGL.cpp.s
-
-SFML-2.5.0/share/SFML/examples/pong/Pong.obj: SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/pong/Pong.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/pong/Pong.i: SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/pong/Pong.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.i
-
-SFML-2.5.0/share/SFML/examples/pong/Pong.s: SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/pong/Pong.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/pong/Pong.cpp.s
-
-SFML-2.5.0/share/SFML/examples/shader/Shader.obj: SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/shader/Shader.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/shader/Shader.i: SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/shader/Shader.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.i
-
-SFML-2.5.0/share/SFML/examples/shader/Shader.s: SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/shader/Shader.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/shader/Shader.cpp.s
-
-SFML-2.5.0/share/SFML/examples/sockets/Sockets.obj: SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/Sockets.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/sockets/Sockets.i: SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/Sockets.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.i
-
-SFML-2.5.0/share/SFML/examples/sockets/Sockets.s: SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/Sockets.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/Sockets.cpp.s
-
-SFML-2.5.0/share/SFML/examples/sockets/TCP.obj: SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/TCP.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/sockets/TCP.i: SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/TCP.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.i
-
-SFML-2.5.0/share/SFML/examples/sockets/TCP.s: SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/TCP.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/TCP.cpp.s
-
-SFML-2.5.0/share/SFML/examples/sockets/UDP.obj: SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/UDP.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/sockets/UDP.i: SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/UDP.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.i
-
-SFML-2.5.0/share/SFML/examples/sockets/UDP.s: SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/UDP.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/sockets/UDP.cpp.s
-
-SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.obj: SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.i: SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.i
-
-SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.s: SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.cpp.s
-
-SFML-2.5.0/share/SFML/examples/sound/Sound.obj: SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sound/Sound.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/sound/Sound.i: SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sound/Sound.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.i
-
-SFML-2.5.0/share/SFML/examples/sound/Sound.s: SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/sound/Sound.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/sound/Sound.cpp.s
-
-SFML-2.5.0/share/SFML/examples/voip/Client.obj: SFML-2.5.0/share/SFML/examples/voip/Client.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Client.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/voip/Client.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/Client.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Client.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/voip/Client.i: SFML-2.5.0/share/SFML/examples/voip/Client.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Client.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/voip/Client.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/Client.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Client.cpp.i
-
-SFML-2.5.0/share/SFML/examples/voip/Client.s: SFML-2.5.0/share/SFML/examples/voip/Client.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Client.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/voip/Client.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/Client.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Client.cpp.s
-
-SFML-2.5.0/share/SFML/examples/voip/Server.obj: SFML-2.5.0/share/SFML/examples/voip/Server.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Server.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/voip/Server.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/Server.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Server.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/voip/Server.i: SFML-2.5.0/share/SFML/examples/voip/Server.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Server.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/voip/Server.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/Server.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Server.cpp.i
-
-SFML-2.5.0/share/SFML/examples/voip/Server.s: SFML-2.5.0/share/SFML/examples/voip/Server.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Server.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/voip/Server.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/Server.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/Server.cpp.s
-
-SFML-2.5.0/share/SFML/examples/voip/VoIP.obj: SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/VoIP.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/voip/VoIP.i: SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/VoIP.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.i
-
-SFML-2.5.0/share/SFML/examples/voip/VoIP.s: SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/VoIP.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/voip/VoIP.cpp.s
-
-SFML-2.5.0/share/SFML/examples/window/Window.obj: SFML-2.5.0/share/SFML/examples/window/Window.cpp.obj
-
-.PHONY : SFML-2.5.0/share/SFML/examples/window/Window.obj
-
-# target to build an object file
-SFML-2.5.0/share/SFML/examples/window/Window.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/window/Window.cpp.obj
-.PHONY : SFML-2.5.0/share/SFML/examples/window/Window.cpp.obj
-
-SFML-2.5.0/share/SFML/examples/window/Window.i: SFML-2.5.0/share/SFML/examples/window/Window.cpp.i
-
-.PHONY : SFML-2.5.0/share/SFML/examples/window/Window.i
-
-# target to preprocess a source file
-SFML-2.5.0/share/SFML/examples/window/Window.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/window/Window.cpp.i
-.PHONY : SFML-2.5.0/share/SFML/examples/window/Window.cpp.i
-
-SFML-2.5.0/share/SFML/examples/window/Window.s: SFML-2.5.0/share/SFML/examples/window/Window.cpp.s
-
-.PHONY : SFML-2.5.0/share/SFML/examples/window/Window.s
-
-# target to generate assembly for a file
-SFML-2.5.0/share/SFML/examples/window/Window.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/SFML-2.5.0/share/SFML/examples/window/Window.cpp.s
-.PHONY : SFML-2.5.0/share/SFML/examples/window/Window.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -668,7 +317,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -677,7 +326,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -686,7 +335,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\gv343_game_section2.dir\build.make CMakeFiles/gv343_game_section2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -695,69 +344,30 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... gv343_game_section2
 	@echo ... edit_cache
+	@echo ... CIS_343_02
 	@echo ... rebuild_cache
+	@echo ... Animator.obj
+	@echo ... Animator.i
+	@echo ... Animator.s
 	@echo ... Collision.obj
 	@echo ... Collision.i
 	@echo ... Collision.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
+	@echo ... Intro.obj
+	@echo ... Intro.i
+	@echo ... Intro.s
 	@echo ... Monster.obj
 	@echo ... Monster.i
 	@echo ... Monster.s
+	@echo ... Options.obj
+	@echo ... Options.i
+	@echo ... Options.s
 	@echo ... Person.obj
 	@echo ... Person.i
 	@echo ... Person.s
-	@echo ... SFML-2.5.0/share/SFML/examples/X11Example/X11.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/X11Example/X11.i
-	@echo ... SFML-2.5.0/share/SFML/examples/X11Example/X11.s
-	@echo ... SFML-2.5.0/share/SFML/examples/ftp/Ftp.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/ftp/Ftp.i
-	@echo ... SFML-2.5.0/share/SFML/examples/ftp/Ftp.s
-	@echo ... SFML-2.5.0/share/SFML/examples/island/Island.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/island/Island.i
-	@echo ... SFML-2.5.0/share/SFML/examples/island/Island.s
-	@echo ... SFML-2.5.0/share/SFML/examples/joystick/Joystick.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/joystick/Joystick.i
-	@echo ... SFML-2.5.0/share/SFML/examples/joystick/Joystick.s
-	@echo ... SFML-2.5.0/share/SFML/examples/opengl/OpenGL.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/opengl/OpenGL.i
-	@echo ... SFML-2.5.0/share/SFML/examples/opengl/OpenGL.s
-	@echo ... SFML-2.5.0/share/SFML/examples/pong/Pong.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/pong/Pong.i
-	@echo ... SFML-2.5.0/share/SFML/examples/pong/Pong.s
-	@echo ... SFML-2.5.0/share/SFML/examples/shader/Shader.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/shader/Shader.i
-	@echo ... SFML-2.5.0/share/SFML/examples/shader/Shader.s
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/Sockets.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/Sockets.i
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/Sockets.s
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/TCP.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/TCP.i
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/TCP.s
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/UDP.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/UDP.i
-	@echo ... SFML-2.5.0/share/SFML/examples/sockets/UDP.s
-	@echo ... SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.i
-	@echo ... SFML-2.5.0/share/SFML/examples/sound-capture/SoundCapture.s
-	@echo ... SFML-2.5.0/share/SFML/examples/sound/Sound.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/sound/Sound.i
-	@echo ... SFML-2.5.0/share/SFML/examples/sound/Sound.s
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/Client.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/Client.i
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/Client.s
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/Server.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/Server.i
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/Server.s
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/VoIP.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/VoIP.i
-	@echo ... SFML-2.5.0/share/SFML/examples/voip/VoIP.s
-	@echo ... SFML-2.5.0/share/SFML/examples/window/Window.obj
-	@echo ... SFML-2.5.0/share/SFML/examples/window/Window.i
-	@echo ... SFML-2.5.0/share/SFML/examples/window/Window.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

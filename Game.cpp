@@ -12,8 +12,10 @@
 #include "Person.hpp"
 #include "Monster.hpp"
 #include "Settings.hpp"
+#include "Options.hpp"
 #include <iostream>
 #include <random>
+#include <Options.hpp>
 #include "SFML/Audio.hpp"
 #include "SFML/Graphics.hpp"
 
@@ -66,6 +68,13 @@ int Game::start(){
     text.setFillColor(sf::Color::White);
     text.setPosition(150, 350);
 
+    sf::Text options;
+    options.setFont(font);
+    options.setString("(Press O for Options)");
+    options.setCharacterSize(24);
+    options.setFillColor(sf::Color::White);
+    options.setPosition(150, 450);
+
     sf::Clock clock;
 
     sf::Music music;
@@ -91,13 +100,20 @@ int Game::start(){
                     music.stop();
                     return 0;
                 }
-            }
 
+                if(event.key.code == sf::Keyboard::O){
+                    options::Options o (window);
+                    o.show();
+                    window.clear();
+
+                }
+            }
         }
 
         window.draw(sprite);
         window.draw(title);
         window.draw(text);
+        window.draw(options);
         window.display();
 
         sf::Time time = clock.getElapsedTime();

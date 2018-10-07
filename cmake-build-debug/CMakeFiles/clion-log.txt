@@ -1,32 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\crk\OneDrive\Documents\GitHub\gv343_game_section2
-CMake Warning (dev) at CMakeLists.txt:7 (find_package):
-  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
-  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
-  command to set the policy and suppress this warning.
-
-  CMake variable SFML_ROOT is set to:
-
-    SFML-2.5.0-win64/lib/cmake/SFML
-
-  For compatibility, CMake is ignoring the variable.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
-CMake Error at CMakeLists.txt:7 (find_package):
-  By not providing "FindSFML.cmake" in CMAKE_MODULE_PATH this project has
-  asked CMake to find a package configuration file provided by "SFML", but
-  CMake did not find one.
-
-  Could not find a package configuration file provided by "SFML" (requested
-  version 2.5) with any of the following names:
-
-    SFMLConfig.cmake
-    sfml-config.cmake
-
-  Add the installation prefix of "SFML" to CMAKE_PREFIX_PATH or set
-  "SFML_DIR" to a directory containing one of the above files.  If "SFML"
-  provides a separate development package or SDK, be sure it has been
-  installed.
-
-
--- Configuring incomplete, errors occurred!
-See also "C:/Users/crk/OneDrive/Documents/GitHub/gv343_game_section2/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Found SFML 2.5.0 in C:/Users/crk/OneDrive/Documents/GitHub/gv343_game_section2/SFML-2.5.0-win64/lib/cmake/SFML
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/crk/OneDrive/Documents/GitHub/gv343_game_section2/cmake-build-debug

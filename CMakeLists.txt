@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> master
 cmake_minimum_required(VERSION 3.8)
 project(CIS_343_02)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SFML_ROOT SFML-2.5.0-win64/lib/cmake/SFML)
-find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
+set(SFML_DIR SFML-2.5.0-win64/lib/cmake/SFML)
+find_package(SFML COMPONENTS graphics audio REQUIRED)
 
 include_directories(include)
 include_directories(SFML)
@@ -19,12 +15,11 @@ set(SOURCE_FILES
         Game.cpp
         main.cpp
         Monster.cpp
-<<<<<<< HEAD
-        Person.cpp Intro.cpp)
-=======
-        Person.cpp Intro.cpp
-        Animator.cpp)
->>>>>>> master
+        Person.cpp
+        Intro.cpp
+        Animator.cpp
+        Options.cpp)
+
 
 add_executable(CIS_343_02 ${SOURCE_FILES})
 target_link_libraries(CIS_343_02 sfml-graphics sfml-audio sfml-window sfml-system)
