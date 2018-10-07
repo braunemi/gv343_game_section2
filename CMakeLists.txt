@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 cmake_minimum_required(VERSION 3.8)
 project(CIS_343_02)
 
@@ -15,7 +19,12 @@ set(SOURCE_FILES
         Game.cpp
         main.cpp
         Monster.cpp
+<<<<<<< HEAD
         Person.cpp Intro.cpp)
+=======
+        Person.cpp Intro.cpp
+        Animator.cpp)
+>>>>>>> master
 
 add_executable(CIS_343_02 ${SOURCE_FILES})
 target_link_libraries(CIS_343_02 sfml-graphics sfml-audio sfml-window sfml-system)
