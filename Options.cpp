@@ -33,47 +33,49 @@ namespace options {
         title.setFillColor(sf::Color::White);
         title.setPosition(260,10);
 
-        sf::Text highScore;
-        highScore.setFont(font);
-        highScore.setString("S: High Scores");
-        highScore.setCharacterSize(24);
-        highScore.setFillColor(sf::Color::White);
-        highScore.setPosition(100, 100);
-
-        sf::Text credits;
-        credits.setFont(font);
-        credits.setString("C: Credits");
-        credits.setCharacterSize(24);
-        credits.setFillColor(sf::Color::White);
-        credits.setPosition(100, 150);
-
-        sf::Text help;
-        help.setFont(font);
-        help.setString("H: Help");
-        help.setCharacterSize(24);
-        help.setFillColor(sf::Color::White);
-        help.setPosition(100, 200);
-
         sf::Text sound;
         sound.setFont(font);
         sound.setString("- & +: Music volume");
         sound.setCharacterSize(24);
         sound.setFillColor(sf::Color::White);
-        sound.setPosition(100, 250);
+        sound.setPosition(100, 100);
 
         sf::Text sfx;
         sfx.setFont(font);
         sfx.setString("< & >: SoundFX volume");
         sfx.setCharacterSize(24);
         sfx.setFillColor(sf::Color::White);
-        sfx.setPosition(100, 300);
+        sfx.setPosition(100, 150);
+        sf::Text highScore;
+
+        highScore.setFont(font);
+        highScore.setString("S: High Scores");
+        highScore.setCharacterSize(24);
+        highScore.setFillColor(sf::Color::White);
+        highScore.setPosition(100, 200);
+
+        sf::Text credits;
+        credits.setFont(font);
+        credits.setString("C: Credits");
+        credits.setCharacterSize(24);
+        credits.setFillColor(sf::Color::White);
+        credits.setPosition(100, 250);
+
+        sf::Text help;
+        help.setFont(font);
+        help.setString("H: Help");
+        help.setCharacterSize(24);
+        help.setFillColor(sf::Color::White);
+        help.setPosition(100, 300);
+
+
 
         sf::Text menu;
         menu.setFont(font);
         menu.setString("M: Main Menu");
         menu.setCharacterSize(24);
         menu.setFillColor(sf::Color::White);
-        menu.setPosition(100, 500);
+        menu.setPosition(100, 450);
 
         sf::Clock clock;
 
@@ -99,8 +101,19 @@ namespace options {
                         window.clear();
                         return 0;
                     }
-                }
+                    if(event.key.code == sf::Keyboard::Hyphen){
 
+                    }
+                    if(event.key.code == sf::Keyboard::Equal){
+
+                    }
+                    if(event.key.code == sf::Keyboard::Comma){
+
+                    }
+                    if(event.key.code == sf::Keyboard::Period){
+
+                    }
+                }
             }
 
             window.draw(sprite);
