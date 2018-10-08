@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+# gv343_game_section1
+Not on my block..
+=======
 # GVSU CIS 343 Section 02 - Project #2
 'Not On My Block' is a collaborative, fun class project created by Ira Woodring.
 To build from source, follow your platform-specific instructions below:
@@ -17,3 +21,4 @@ To develop *Not On My Block* in Windows, there is currently only build instructi
 7. Run the project from within CLion. 
 
 *NOTE:* You've just statically linked all of mingw and SFML source files. Dynamically linking libraries in CLion is possible, but wasn't feasible at this point in time. Feedback/support is apprecaited.
+>>>>>>> 1a7777b688b22547fdbf35ed368f9893002263c4
