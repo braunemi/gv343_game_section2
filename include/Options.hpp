@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-Options.hpp
-=======
-//
+////
 // Created by crk on 10/6/2018.
 //
 
@@ -22,4 +19,3 @@ namespace options {
     };
 } // namespace options
 #endif //CIS_343_02_OPTIONS_HPP
->>>>>>> 1a7777b688b22547fdbf35ed368f9893002263c4
