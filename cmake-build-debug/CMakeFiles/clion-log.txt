@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\crk\OneDrive\Documents\GitHub\gv343_game_section2
--- Found SFML 2.5.0 in C:/Users/crk/OneDrive/Documents/GitHub/gv343_game_section2/SFML-2.5.0-win64/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/crk/OneDrive/Documents/GitHub/gv343_game_section2/cmake-build-debug
