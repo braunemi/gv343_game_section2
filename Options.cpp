@@ -71,7 +71,6 @@ namespace options {
         help.setPosition(100, 300);
 
 
-
         sf::Text menu;
         menu.setFont(font);
         menu.setString("M: Main Menu");
@@ -99,6 +98,7 @@ namespace options {
                 }
 
                 if(event.type == sf::Event::KeyPressed){
+                    //Returns to main menu when M is pressed
                     if(event.key.code == sf::Keyboard::M){
                         window.clear();
                         return 0;
@@ -121,6 +121,7 @@ namespace options {
                     if(event.key.code == sf::Keyboard::C){
 
                     }
+                    // Goes to help menu when H is pressed
                     if(event.key.code == sf::Keyboard::H){
                         help::Help h (window);
                         h.show();
