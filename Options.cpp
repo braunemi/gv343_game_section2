@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //
 // Created by crk on 10/6/2018.
 //
@@ -153,5 +152,3 @@ namespace options {
 
 }
 
-=======
->>>>>>> parent of 3394ef3... added erics and mine
