@@ -12,7 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe162ab5-1e94-41f8-b539-0889f03721cc" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
       <change beforePath="$PROJECT_DIR$/Options.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Options.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -43,35 +46,50 @@
         <counts>
           <entry key="project.closed" value="8" />
           <entry key="project.open.time.4" value="1" />
+<<<<<<< HEAD
           <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.opened" value="8" />
+=======
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.opened" value="6" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="cpp" value="730" />
           <entry key="hpp" value="74" />
+=======
+          <entry key="cpp" value="526" />
+          <entry key="hpp" value="43" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="10" />
+<<<<<<< HEAD
           <entry key="ObjectiveC" value="804" />
+=======
+          <entry key="ObjectiveC" value="569" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="12" />
-          <entry key="hpp" value="6" />
-          <entry key="png" value="7" />
+          <entry key="cpp" value="6" />
+          <entry key="hpp" value="2" />
+          <entry key="png" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="7" />
-          <entry key="ObjectiveC" value="18" />
+          <entry key="Image" value="5" />
+          <entry key="ObjectiveC" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -87,24 +105,47 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Options.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1579">
               <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
               <folding>
-                <element signature="e#38#57#0" expanded="true" />
+                <element signature="e#273#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Options.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+<<<<<<< HEAD
+=======
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images/House.png">
+          <provider selected="true" editor-type-id="images" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
+        </entry>
+      </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>options</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,10 +155,12 @@
       <list>
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/Options.hpp" />
-        <option value="$PROJECT_DIR$/include/help.hpp" />
         <option value="$PROJECT_DIR$/Game.cpp" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/include/Help.hpp" />
         <option value="$PROJECT_DIR$/Help.cpp" />
+=======
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
         <option value="$PROJECT_DIR$/Options.cpp" />
       </list>
     </option>
@@ -130,7 +173,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1125" />
+    <option name="y" value="-10" />
+    <option name="width" value="1840" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
@@ -150,11 +194,6 @@
               <item name="CIS_343_02" type="b2602c69:ProjectViewProjectNode" />
               <item name="gv343_game_section2" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CIS_343_02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gv343_game_section2" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -210,18 +249,29 @@
       <workItem from="1538879229243" duration="11389000" />
       <workItem from="1538938917564" duration="4595000" />
       <workItem from="1538945017632" duration="2002000" />
+<<<<<<< HEAD
       <workItem from="1538949873915" duration="5965000" />
       <workItem from="1538956355537" duration="921000" />
+=======
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="29348000" />
+=======
+    <option name="totallyTimeSpent" value="22462000" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14899328" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14496644" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,7 +282,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.1461126" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.12734585" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
@@ -257,6 +307,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/Options.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#101#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Intro.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
@@ -271,13 +331,17 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/images/House.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+=======
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
     <entry file="file://$PROJECT_DIR$/images/neighborhood.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
@@ -301,29 +365,50 @@
           <folding>
             <element signature="e#101#129#0" expanded="true" />
           </folding>
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Game.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1802">
           <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+=======
+        <state relative-caret-position="1224">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
           <folding>
             <element signature="e#273#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Help.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="9" lean-forward="true" selection-end-line="100" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/images/House.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Options.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
           <folding>
             <element signature="e#48#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/include/Help.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -344,5 +429,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
   </component>
 </project>

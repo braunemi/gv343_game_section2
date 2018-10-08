@@ -6,8 +6,6 @@
 #include <Animator.hpp>
 #include "Options.hpp"
 #include "SFML/Audio.hpp"
-#include "Help.hpp"
-
 
 namespace options {
     Options::Options(sf::RenderWindow &rw) : window(rw) {
@@ -115,6 +113,7 @@ namespace options {
                     if(event.key.code == sf::Keyboard::Period){
 
                     }
+<<<<<<< HEAD
                     if(event.key.code == sf::Keyboard::S){
 
                     }
@@ -127,6 +126,8 @@ namespace options {
                         h.show();
                         window.clear();
                     }
+=======
+>>>>>>> parent of 7700054... Merge branch 'Options' of https://github.com/irawoodring/gv343_game_section2 into Options
                 }
             }
 

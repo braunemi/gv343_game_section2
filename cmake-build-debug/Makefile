@@ -203,33 +203,6 @@ Game.cpp.s:
 	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Game.cpp.s
 .PHONY : Game.cpp.s
 
-Help.obj: Help.cpp.obj
-
-.PHONY : Help.obj
-
-# target to build an object file
-Help.cpp.obj:
-	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Help.cpp.obj
-.PHONY : Help.cpp.obj
-
-Help.i: Help.cpp.i
-
-.PHONY : Help.i
-
-# target to preprocess a source file
-Help.cpp.i:
-	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Help.cpp.i
-.PHONY : Help.cpp.i
-
-Help.s: Help.cpp.s
-
-.PHONY : Help.s
-
-# target to generate assembly for a file
-Help.cpp.s:
-	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Help.cpp.s
-.PHONY : Help.cpp.s
-
 Intro.obj: Intro.cpp.obj
 
 .PHONY : Intro.obj
@@ -383,9 +356,6 @@ help:
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
-	@echo ... Help.obj
-	@echo ... Help.i
-	@echo ... Help.s
 	@echo ... Intro.obj
 	@echo ... Intro.i
 	@echo ... Intro.s
