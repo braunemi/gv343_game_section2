@@ -6,6 +6,8 @@
 #include <Animator.hpp>
 #include "Options.hpp"
 #include "SFML/Audio.hpp"
+#include "Help.hpp"
+
 
 namespace options {
     Options::Options(sf::RenderWindow &rw) : window(rw) {
@@ -112,6 +114,17 @@ namespace options {
                     }
                     if(event.key.code == sf::Keyboard::Period){
 
+                    }
+                    if(event.key.code == sf::Keyboard::S){
+
+                    }
+                    if(event.key.code == sf::Keyboard::C){
+
+                    }
+                    if(event.key.code == sf::Keyboard::H){
+                        help::Help h (window);
+                        h.show();
+                        window.clear();
                     }
                 }
             }
