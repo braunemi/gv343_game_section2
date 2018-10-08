@@ -18,7 +18,10 @@ set(SOURCE_FILES
         Person.cpp
         Intro.cpp
         Animator.cpp
-        Options.cpp include/Help.hpp Help.cpp)
+        Options.cpp
+        Help.cpp
+        Credits.cpp
+        sound.cpp`)
 
 
 add_executable(CIS_343_02 ${SOURCE_FILES})

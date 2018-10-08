@@ -14,16 +14,20 @@
 #include <random>
 #include "SFML/Audio.hpp"
 #include "SFML/Graphics.hpp"
+
 namespace help {
     class Help {
     public:
+        /**************************************************
+        *Default constructor
+        **************************************************/
         Help(sf::RenderWindow &window);
-
+        /**************************************************
+        *Displays the options menu and controls
+        *@return int 0
+        **************************************************/
         int show();
-
     private:
-        void processEvents();
-
         sf::Text title;
         sf::Text up;
         sf::Text down;
@@ -36,4 +40,5 @@ namespace help {
         sf::Sprite sprite;
     };
 }
+
 #endif

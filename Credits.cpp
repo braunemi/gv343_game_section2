@@ -34,7 +34,7 @@ Credits::Credits(){
 	//Vector of vectors that holds team with their respective team members
 	credits = {{"CREDITS TEAM", "Justin Johns", "Kanoa Ellis", "Alicia Stoll", "Mohamed", "Harman"},
 		{"PLAYER TEAM", "Zach Thomas", "Matt Kennedy", "James Lund", "Will Shreeve"},
-		{"OPTIONS TEAM", "Christna Kidwell", "Eric Schoenborn", "Lauren DeFrancesco", "Atone Joryman", "Matt Tetreau"},
+		{"OPTIONS TEAM", "Christna Kidwell", "Matt Tetreau", "Eric Schoenborn", "Lauren DeFrancesco", "Atone Joryman"},
 		{"GORGON 7", "Gorgon Slime Boss XII", "Gorgonzola Lord", "Gorgon Squire", "Colombian Gorgon"}};
 }
 

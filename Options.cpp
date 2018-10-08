@@ -7,7 +7,7 @@
 #include "Options.hpp"
 #include "SFML/Audio.hpp"
 #include "Help.hpp"
-
+#include "Credits.hpp"
 
 namespace options {
     Options::Options(sf::RenderWindow &rw) : window(rw) {
@@ -28,6 +28,7 @@ namespace options {
             return EXIT_FAILURE;
         }
 
+        //Text for title
         sf::Text title;
         title.setFont(font);
         title.setString("Options");
@@ -35,6 +36,7 @@ namespace options {
         title.setFillColor(sf::Color::White);
         title.setPosition(260,10);
 
+        //Text for Music control
         sf::Text sound;
         sound.setFont(font);
         sound.setString("- & +: Music volume");
@@ -42,6 +44,7 @@ namespace options {
         sound.setFillColor(sf::Color::White);
         sound.setPosition(100, 100);
 
+        //Text for Sound FX control
         sf::Text sfx;
         sfx.setFont(font);
         sfx.setString("< & >: SoundFX volume");
@@ -50,12 +53,14 @@ namespace options {
         sfx.setPosition(100, 150);
         sf::Text highScore;
 
+        //Text for High Score
         highScore.setFont(font);
         highScore.setString("S: High Scores");
         highScore.setCharacterSize(24);
         highScore.setFillColor(sf::Color::White);
         highScore.setPosition(100, 200);
 
+        //Text for Credits
         sf::Text credits;
         credits.setFont(font);
         credits.setString("C: Credits");
@@ -63,6 +68,7 @@ namespace options {
         credits.setFillColor(sf::Color::White);
         credits.setPosition(100, 250);
 
+        //Text for Help menu
         sf::Text help;
         help.setFont(font);
         help.setString("H: Help");
@@ -70,7 +76,7 @@ namespace options {
         help.setFillColor(sf::Color::White);
         help.setPosition(100, 300);
 
-
+        //Text for return to main menu
         sf::Text menu;
         menu.setFont(font);
         menu.setString("M: Main Menu");
@@ -88,15 +94,18 @@ namespace options {
         music.play();
         while (window.isOpen())
         {
+            //Event handler
             sf::Event event;
             while (window.pollEvent(event))
             {
+                //Handle window closing
                 if (event.type == sf::Event::Closed){
                     window.close();
                     music.stop();
                     exit(0);
                 }
 
+                //Handle key press
                 if(event.type == sf::Event::KeyPressed){
                     //Returns to main menu when M is pressed
                     if(event.key.code == sf::Keyboard::M){
@@ -118,8 +127,11 @@ namespace options {
                     if(event.key.code == sf::Keyboard::S){
 
                     }
+                    //Starts the credits when C is pressed
                     if(event.key.code == sf::Keyboard::C){
-
+                        Credits c;
+                        c.start(window);
+                        window.clear();
                     }
                     // Goes to help menu when H is pressed
                     if(event.key.code == sf::Keyboard::H){
@@ -130,15 +142,17 @@ namespace options {
                 }
             }
 
+            //display everything
             window.draw(sprite);
             window.draw(title);
+            window.draw(sound);
+            window.draw(sfx);
             window.draw(highScore);
             window.draw(credits);
             window.draw(help);
-            window.draw(sound);
-            window.draw(sfx);
-
+            //window.draw(difficulty);
             window.draw(menu);
+
             window.display();
         }
         return 0;

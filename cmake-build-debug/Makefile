@@ -176,6 +176,33 @@ Collision.cpp.s:
 	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Collision.cpp.s
 .PHONY : Collision.cpp.s
 
+Credits.obj: Credits.cpp.obj
+
+.PHONY : Credits.obj
+
+# target to build an object file
+Credits.cpp.obj:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Credits.cpp.obj
+.PHONY : Credits.cpp.obj
+
+Credits.i: Credits.cpp.i
+
+.PHONY : Credits.i
+
+# target to preprocess a source file
+Credits.cpp.i:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Credits.cpp.i
+.PHONY : Credits.cpp.i
+
+Credits.s: Credits.cpp.s
+
+.PHONY : Credits.s
+
+# target to generate assembly for a file
+Credits.cpp.s:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/Credits.cpp.s
+.PHONY : Credits.cpp.s
+
 Game.obj: Game.cpp.obj
 
 .PHONY : Game.obj
@@ -365,6 +392,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sound.obj: sound.cpp.obj
+
+.PHONY : sound.obj
+
+# target to build an object file
+sound.cpp.obj:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/sound.cpp.obj
+.PHONY : sound.cpp.obj
+
+sound.i: sound.cpp.i
+
+.PHONY : sound.i
+
+# target to preprocess a source file
+sound.cpp.i:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/sound.cpp.i
+.PHONY : sound.cpp.i
+
+sound.s: sound.cpp.s
+
+.PHONY : sound.s
+
+# target to generate assembly for a file
+sound.cpp.s:
+	$(MAKE) -f CMakeFiles\CIS_343_02.dir\build.make CMakeFiles/CIS_343_02.dir/sound.cpp.s
+.PHONY : sound.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -380,6 +434,9 @@ help:
 	@echo ... Collision.obj
 	@echo ... Collision.i
 	@echo ... Collision.s
+	@echo ... Credits.obj
+	@echo ... Credits.i
+	@echo ... Credits.s
 	@echo ... Game.obj
 	@echo ... Game.i
 	@echo ... Game.s
@@ -401,6 +458,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... sound.obj
+	@echo ... sound.i
+	@echo ... sound.s
 .PHONY : help
 
 
